@@ -36,7 +36,7 @@ button {
   left: 50%;
   transform-origin: center;
   pointer-events: none;
-  opacity: 0%;
+  opacity: 0;
   text-align: center;
 
   transition-property: transform, opacity;
@@ -54,7 +54,7 @@ button {
   position: fixed;
   inset: 0;
   background: #000;
-  opacity: 0%;
+  opacity: 0;
 }
 
 .popup-modal.show {
